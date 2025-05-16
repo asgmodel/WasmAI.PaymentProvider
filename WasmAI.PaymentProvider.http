@@ -1,0 +1,6 @@
+@WasmAI.PaymentProvider_HostAddress = http://localhost:5038
+
+GET {{WasmAI.PaymentProvider_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
