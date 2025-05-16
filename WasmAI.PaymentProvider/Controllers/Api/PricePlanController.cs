@@ -7,7 +7,6 @@ using WasmAI.PaymentProvider.DyModels.VMs;
 using System.Linq.Expressions;
 using WasmAI.PaymentProvider.DyModels.Dso.Requests;
 using WasmAI.PaymentProvider.DyModels.Dso.Responses;
-using AutoGenerator.Helper.Translation;
 using System;
 using WasmAI.PaymentProvider.BPR.Layers.Base;
 

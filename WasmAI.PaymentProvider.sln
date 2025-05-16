@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.35906.104 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WasmAI.PaymentProvider", "WasmAI.PaymentProvider.csproj", "{3B9C5B2B-EB7D-495E-A45F-261F06B4A45D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeGateway", "StripeGateway\StripeGateway.csproj", "{635EAC6A-025B-4767-83E1-1B8AAA45E88C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{3B9C5B2B-EB7D-495E-A45F-261F06B4A45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B9C5B2B-EB7D-495E-A45F-261F06B4A45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B9C5B2B-EB7D-495E-A45F-261F06B4A45D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635EAC6A-025B-4767-83E1-1B8AAA45E88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635EAC6A-025B-4767-83E1-1B8AAA45E88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635EAC6A-025B-4767-83E1-1B8AAA45E88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635EAC6A-025B-4767-83E1-1B8AAA45E88C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{635EAC6A-025B-4767-83E1-1B8AAA45E88C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A261693-CDEF-47F6-B7B5-78FCEE64CB64}
