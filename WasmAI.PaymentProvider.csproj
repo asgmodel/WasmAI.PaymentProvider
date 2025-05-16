@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="StripeGateway\StripeGateway.csproj" />
+    <ProjectReference Include="..\StripeGateway\StripeGateway.csproj" />
   </ItemGroup>
 
 </Project>
